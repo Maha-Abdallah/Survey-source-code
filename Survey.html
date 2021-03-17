@@ -1,0 +1,174 @@
+<DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="full-width">
+  <meta name="description" content=" This our restaurant feedback form ">
+  <meta name="keywords" content="feedback, survey, restaurant">
+  <meta name="author" content="Maha Abdallah">
+  <title>80C restaurant | Welcome</title>
+  <link rel="stylesheet" href="Survey.CSS">
+<div class=”container”>
+<p class="flower">we appreciate  that you taking the time to fill our Survey to help us improve our service</p>
+	  </head>
+  <form id=”survey-form”>
+    	    <div class=”form-group”>
+	      <label id=”name-label” for=”name”>Name</label>
+	      <input
+	        Type=”text”
+	        Name=”name”
+	        Id=”name”
+	        Class=”form-control”
+	        Placeholder=”Enter your name”
+	        Required
+	      />
+	    </div>
+	    <div class=”form-group”>
+	      <label id=”email-label” for=”email”>Email</label>
+	      <input
+	        Type=”email”
+	        Name=”email”
+	        Id=”email”
+	        Class=”form-control”
+	        Placeholder=”Enter your Email”
+	        Required
+	      />
+	    </div>
+	    <div class=”form-group”>
+	      <label id=”number-label” for=”number”
+	        >Age<span class=”clue”>(optional)</span></label>
+	      <input
+	        Type=”number”
+	        Name=”age”
+	        Id=”number”
+	        Min=”10”
+	        Max=”99”
+	        Class=”form-control”
+	        Placeholder=”Age”
+	      />
+	    </div>
+
+	    <div class=”form-group”>
+	      <p>What ie food quality?</p>
+	      <select id=”dropdown” name=”quality” class=”form-control” required>
+	        <option disabled selected value>Select quality</option>
+	        <option value=”quality”>Excellent</option>
+	        <option value=”quality”>very good</option>
+	        <option value=”quality”>good</option>
+	        <option value=”quality”>bad</option>
+	        <option value=”quality”>Other</option>
+	      </select>
+	    </div>
+
+	    <div class=”form-group”>
+	      <p>Would you recommend us?</p>
+	      <label>
+	        <input
+	          Name=”user-recommend”
+	          Value=”definitely”
+	          Type=”radio”
+	          Class=”input-radio”
+	          Checked
+	        />Definitely</label
+	      >
+	      <label>
+	        <input
+	          Name=”user-recommend”
+	          Value=”maybe”
+	          Type=”radio”
+	          Class=”input-radio”
+	        />Maybe</label
+	      >
+
+
+
+
+	      <label
+	        ><input
+	          Name=”user-recommend”
+	          Value=”not-sure”
+	          Type=”radio”
+	          Class=”input-radio”
+	        />Not sure</label
+	      >
+	    </div>
+
+	    <div class=”form-group”>
+	      <div class=”form-group”>
+	      <p>What ie food cleannes?</p>
+	      <select id=”dropdown” name=”quality” class=”form-control” required>
+	        <option disabled selected value>Select quality</option>
+	        <option value=”quality”>Excellent</option>
+	        <option value=”quality”>very good</option>
+	        <option value=”quality”>good</option>
+	        <option value=”quality”>bad</option>
+	        <option value=”quality”>Other</option>
+	      </select>
+	    </div>
+
+	    <div class=”form-group”>
+	      <p>
+	        What would you like to see improved?
+	        <span class=”clue”>(Check all that apply)</span>
+	      </p>
+
+	      <label
+	        ><input
+	          Name=”prefer”
+	          Value=”food-quality”
+	          Type=”checkbox”
+	          Class=”input-checkbox”
+	        />Food-quality</label
+	      >
+	      <label>
+	        <input
+	          Name=”prefer”
+	          Value=”service-quality”
+	          Type=”checkbox”
+	          Class=”input-checkbox”
+	        />service-quality</label
+	      >
+	      <label
+	        ><input
+	          Name=”prefer”
+	          Value=”food-cleannes”
+	          Type=”checkbox”
+	          Class=”input-checkbox”
+	        />food-cleannes</label
+	      >
+	      <label
+	        ><input
+	          Name=”prefer”
+	          Value=”food-time”
+	          Type=”checkbox”
+	          Class=”input-checkbox”
+	        />food-time</label
+	      >
+	      <label
+	        ><input
+	          Name=”prefer”
+	          Value=”servent-attitue”
+	          Type=”checkbox”
+	          Class=”input-checkbox”
+	        />servent attitue</label
+	      >
+	    </div>
+
+	    <div class=”form-group”>
+	      <p>Any comments or suggestions?</p>
+	      <textarea
+	        Id=”comments”
+	        Class=”input-textarea”
+	        Name=”comment”
+	        Placeholder=”Enter your comment here…”
+	      ></textarea>
+	    </div>
+
+	    <div class=”form-group”>
+	      <button type=”submit” id=”submit” class=”submit-button”>
+	        Submit
+	      </button>
+	    </div>
+	  </form>
+	</div>
